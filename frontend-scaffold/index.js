@@ -31,7 +31,7 @@ fs.writeFileSync("frontend-scaffold/css/style.css", styleCSS);
 
 // Create the js folder and script.js file
 fs.mkdirSync("frontend-scaffold/js");
-const scriptJS = 'alert = ("Hello World");';
+const scriptJS = 'alert("Hello World");';
 fs.writeFileSync("frontend-scaffold/js/script.js", scriptJS);
 
 // Create the image folder
